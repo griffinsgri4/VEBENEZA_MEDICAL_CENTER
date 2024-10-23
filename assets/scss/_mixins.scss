@@ -1,0 +1,16 @@
+// Flexbox Mixin
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  // Responsive Font Size Mixin
+  @mixin responsive-font($size) {
+    font-size: $size;
+  
+    @media (max-width: 768px) {
+      font-size: $size * 0.8;
+    }
+  }
+  

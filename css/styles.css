@@ -177,7 +177,9 @@ header p {
     transform: scale(1.05); /* Hover effect */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
+.patient-services{
+    background-image: image();
+}
 
 footer {
     background-color: rgb(25,119,204);

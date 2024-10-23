@@ -1,0 +1,24 @@
+.button {
+    background-color: $primary-color;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+  
+  .form-control {
+    padding: 10px;
+    border: 1px solid $text-color;
+    border-radius: 5px;
+  
+    &:focus {
+      border-color: $primary-color;
+      outline: none;
+    }
+  }
+  
