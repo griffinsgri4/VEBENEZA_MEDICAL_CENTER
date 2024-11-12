@@ -947,9 +947,10 @@ section,
 }
 
 .hero .welcome p {
-  font-size: 24px;
+  font-size: 32px;
   margin: 0;
   color: rgb(237,57,62);
+  font-family: 'Courier New', Courier, monospace;;
   
 }
 
